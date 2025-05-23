@@ -1,7 +1,7 @@
 #include <iostream>
 #include <iomanip>
 using namespace std;
- 
+
 int main()
 {
 	//定义区 

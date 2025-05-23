@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include<iomanip>
+#include<bitset>
 using namespace std;
 
 
@@ -19,6 +20,7 @@ int main() {
 	cout << "Hex:" << hex << b << endl;
 	cout << "Oct:" << oct << b << endl;
 	cout << "Dec:" << dec << b << endl;
+	cout << "Bin:" << bitset<8>(b) << endl;
 	cout << "---------------------------" << endl;
 
 	cout << "control the width and alignment, and the width is 6 spaces" << endl;
