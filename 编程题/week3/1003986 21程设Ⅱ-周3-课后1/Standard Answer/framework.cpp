@@ -2,7 +2,7 @@
 #include <string>
 using namespace std;
 
-#include "source.cpp"
+#include "a.cpp"
 
 int main_menu() {
 	cout << "1. Add a cat" << endl;
