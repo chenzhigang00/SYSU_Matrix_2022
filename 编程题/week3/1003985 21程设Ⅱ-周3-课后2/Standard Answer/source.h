@@ -2,8 +2,8 @@
 #include<iostream>
 using namespace std;
 ostream & leftform (ostream& strm) {
- strm << resetiosflags(ios::fixed);
- strm.flush();
+ strm << resetiosflags(ios::fixed);  // 清除之前的fixed格式
+ strm.flush();  // 强制刷新输出流的缓冲区
  strm << setiosflags(ios::left);
  strm << "left :";
  strm << setw(15);
